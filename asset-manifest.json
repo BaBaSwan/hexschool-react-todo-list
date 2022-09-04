@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hexschool-react-todo-list/static/css/main.db3e40a8.css",
+    "main.js": "/hexschool-react-todo-list/static/js/main.132872f3.js",
+    "static/js/787.a5cad257.chunk.js": "/hexschool-react-todo-list/static/js/787.a5cad257.chunk.js",
+    "index.html": "/hexschool-react-todo-list/index.html",
+    "main.db3e40a8.css.map": "/hexschool-react-todo-list/static/css/main.db3e40a8.css.map",
+    "main.132872f3.js.map": "/hexschool-react-todo-list/static/js/main.132872f3.js.map",
+    "787.a5cad257.chunk.js.map": "/hexschool-react-todo-list/static/js/787.a5cad257.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db3e40a8.css",
+    "static/js/main.132872f3.js"
+  ]
+}
