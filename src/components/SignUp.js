@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios'
 import Swal from 'sweetalert2'
+import logoImg from '../assets/logoImg.png'
+import workImg from '../assets/workImg.png'
 
 function SignUp () {
   let navigate = useNavigate();
@@ -45,8 +47,8 @@ function SignUp () {
     <div id="signUpPage" className="bg-yellow">
       <div className="conatiner signUpPage vhContainer">
         <div className="side">
-          <a href="#"><img className="logoImg" src="https://upload.cc/i1/2022/03/23/rhefZ3.png" alt="" /></a>
-          <img className="d-m-n" src="https://upload.cc/i1/2022/03/23/tj3Bdk.png" alt="workImg" />
+          <a href="#"><img className="logoImg" src={logoImg} alt="" /></a>
+          <img className="d-m-n" src={workImg} alt="workImg" />
         </div>
         <div>
           <form className="formControls" onSubmit={handleSubmit(onSubmit)}>
